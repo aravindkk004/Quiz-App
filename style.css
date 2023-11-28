@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+}
+
+.beforeStart{
+    width: 40%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 1.5rem;
+}
+
+.start{
+    margin: 10px 0px;
+}
+
+.beforeStart span{
+    color: red;
+}
+
+.note{
+    font-weight: bolder;
+}
+
+.disable{
+    display: none;
+}
+
+.wrapper{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 650px;
+    box-shadow: 2px 2px 20px darkgray;
+    display: none;
+}
+
+.wrapper.active{
+    display: block;
+}
+
+header{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+h1{
+    font-size: 2.5rem;
+    color: coral;
+}
+
+.timer{
+    font-size: 1.8rem;
+    padding:5px 10px;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+}
+
+h3{
+    font-size: 2.3rem;
+    margin: 20px 0px;
+}
+
+ul{
+    margin-bottom: 30px;
+}
+
+ul li{
+    list-style: none;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 6px 0px;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+}
+
+.validate{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-circle-check{
+    color: green;
+    border-radius: 50%;
+}
+
+.fa-circle-xmark{
+    color: red;
+    border-radius: 50%;
+}
+
+ul li:hover{
+    background-color: #eee;
+    cursor: pointer;
+}
+
+button{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5rem;
+    border: 3px solid cornflowerblue;
+    background-color: white;
+}
+
+.submit{
+    display: none;
+}
+.submit.btnActive{
+    display: block;
+}
+
+button:hover{
+    background-color: cornflowerblue;
+    cursor: pointer;
+    color: white;
+}
+
+.result{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    display: none;
+}
+
+.result h2{
+    font-size: 2.6rem;
+}
+
+.result p{
+    font-size: 2rem;
+    margin: 20px 0px;
+}
+
+.mark{
+    color: red;
+    font-weight: bolder;
+}
+
+#restart{
+    display: block;
+}
